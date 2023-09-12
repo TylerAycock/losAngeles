@@ -1,0 +1,83 @@
+.history-container{
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    position: relative;
+}
+
+.history-nav-bar{
+    height: 4.5rem;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.history-logo{
+    height: 5rem;
+    width: 3rem;
+    color: #404e6b;
+}
+
+.history-links a{
+    margin-left: 50px;
+    color: black;
+    text-underline-offset: 5px;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+}
+
+.logo-container h3{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.la-logo{
+    color: #4d4d4d;
+}
+
+.mtn-logo{
+  color:  #404e6b;
+}
+
+.one{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.one h2{
+    position: absolute;
+    padding-left: 140px;
+}
+
+.content{
+    position: absolute;
+    left: 20%;
+    top:20%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content h1{
+    font-size: 8rem;
+    color: hsl(220, 25%, 34%,.5);
+    font-weight: 700;
+}
+
+.content h2{
+    font-size: 2.5rem;
+    color:  #404e6c;
+    justify-self: flex-start;
+}
+
+.content p{
+    color: #404e6c;
+}
+
